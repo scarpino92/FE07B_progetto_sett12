@@ -60,9 +60,8 @@ import { MovieInfoPage } from './movie-info.page';
             Preferiti
           </button>
           <span class="fs-5 mx-2">Voto: {{ m.vote_average }}</span>
-          <!-- non sono riuscita a far funzionare la pagina per i dettagli del film così ho aggiunto un alert-->
           <i
-            class="bi bi-info-circle fs-5 ms-4 text-primary info"
+            class="bi bi-info-circle fs-5 text-primary info"
             [routerLink]="[m.id]"
             routerLinkActive="active"
             (click)="info(m.title, m.overview, m.release_date)"
@@ -79,7 +78,7 @@ import { MovieInfoPage } from './movie-info.page';
         position: relative;
       }
       .grid-container {
-        width: 70%;
+        width: 75%;
         display: grid;
         column-gap: 0px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -87,9 +86,9 @@ import { MovieInfoPage } from './movie-info.page';
         margin-left: 24vw;
       }
       .grid-item {
-        width: 15vw;
+        width: 18vw;
         height: auto;
-        margin: 10px 0;
+        margin: 20px 5px;
       }
       .info {
         cursor: pointer;
