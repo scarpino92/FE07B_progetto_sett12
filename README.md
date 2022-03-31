@@ -1,7 +1,7 @@
 # Movies App con Angular
 SPA di gestione dei film preferiti. Realizzata utilizzando Angular e Boostrap con FakeBackend Server e FakeAPI.
 
-<img src="images/MoviesPage.jpg" width="400"><br><span>Pagina con i Film</span><br>
+<img src="images/MoviesPage.jpg" width="400"><br><span>Pagina con i Film</span><br><br>
 <img src="images/User.jpg" width="400"><br><span>Pagina con i dati di accesso dell'Utente</span><br>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
