@@ -1,4 +1,5 @@
-# Movies
+# Movies App con Angular
+SPA di gestione dei film preferiti. Realizzata utilizzando Angular e Boostrap con FakeBackend Server e FakeAPI.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
 
